@@ -11,6 +11,7 @@
 Чтобы скомпилировать и запустить этот проект вам понадобится среда разработки **Android Studio** или любая другая среда, позволяющая работать с файлами kotlin.<br><br>
 1. Вам понадобится скачать [git](https://git-scm.com/) с официального сайта<br>
 2. В Android Studio выберите **File -> New -> New Project...**
+3. Выберите clone repository или просто clone или значок github и вставьте код
 ```bash
 git clone https://github.com
 ```
