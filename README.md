@@ -9,8 +9,8 @@
 
 ### Компиляция 
 Чтобы скомпилировать и запустить этот проект вам понадобится среда разработки **Android Studio** или любая другая среда, позволяющая работать с файлами kotlin.<br><br>
-Вам понадобится скачать [git](https://git-scm.com/) с официального сайта
-В Android Studio выберите **File -> New -> New Project...**
+1. Вам понадобится скачать [git](https://git-scm.com/) с официального сайта<br>
+2. В Android Studio выберите **File -> New -> New Project...**
 ```bash
 git clone https://github.com
 ```
