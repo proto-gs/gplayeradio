@@ -1,4 +1,4 @@
-package com.example.gplayeraudio
+package sound.gplayeraudio
 
 import android.content.ContentUris
 import android.content.Context

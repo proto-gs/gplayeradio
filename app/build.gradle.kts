@@ -14,7 +14,7 @@ val localProperties = Properties().apply {
 }
 
 android {
-    namespace = "com.example.gplayeraudio"
+    namespace = "sound.gplayeraudio"
     compileSdk = 35
 
     signingConfigs {
@@ -27,7 +27,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.gplayeraudio"
+        applicationId = "sound.gplayeraudio"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
