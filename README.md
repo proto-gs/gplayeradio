@@ -13,7 +13,7 @@
 2. В Android Studio выберите **File -> New -> New Project...**
 3. Выберите clone repository или просто clone или значок github и вставьте код
 ```bash
-git clone https://github.com
+git clone  https://github.com/proto-gs/gplayeradio
 ```
 Далее после того как вы скачали проект скомпилируйте и запустите 
 ```bash
