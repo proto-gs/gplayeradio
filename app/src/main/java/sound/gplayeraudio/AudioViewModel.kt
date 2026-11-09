@@ -17,6 +17,12 @@ class AudioViewModel : ViewModel() {
 
 
     fun loadTracks(context: Context) {
+
+        if (_isLoading.value) return
+
+
+        if (_tracks.value.isNotEmpty()) return
+
         viewModelScope.launch(Dispatchers.IO) {
             _isLoading.value = true
             val fetchedTracks = fetchLocalAudioTracks(context)
@@ -25,5 +31,6 @@ class AudioViewModel : ViewModel() {
         }
     }
 }
+
 
 

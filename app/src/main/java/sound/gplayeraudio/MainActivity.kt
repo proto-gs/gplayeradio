@@ -166,6 +166,7 @@ class MainActivity : ComponentActivity() {
                     }
                 } else if (currentTrack == null) {
                     MediaLibraryScreen(
+                        tracks = tracksList,
                         hasPermission = hasPermission,
                         listState = listState,
                         gridState = gridState,
@@ -230,6 +231,7 @@ fun fetchLocalAudioTracks(context: Context): List<AudioTrack> {
 @ExperimentalMaterial3Api
 @Composable
 fun MediaLibraryScreen(
+    tracks: List<AudioTrack>,
     hasPermission: Boolean,
     listState: androidx.compose.foundation.lazy.LazyListState,
     gridState: androidx.compose.foundation.lazy.grid.LazyGridState,
@@ -239,13 +241,7 @@ fun MediaLibraryScreen(
     onRequestPermissionAgain: () -> Unit
 ) {
     val context = LocalContext.current
-    var tracks by remember { mutableStateOf(listOf<AudioTrack>()) }
 
-    LaunchedEffect(hasPermission) {
-        if (hasPermission) {
-            tracks = fetchLocalAudioTracks(context)
-        }
-    }
 
     Scaffold(
         topBar = {
