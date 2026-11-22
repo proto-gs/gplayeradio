@@ -30,9 +30,12 @@ android {
         applicationId = "sound.gplayeraudio"
         minSdk = 24
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "2.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        val supportUrl = localProperties.getProperty("SUPPORT_URL") ?: ""
+        buildConfigField("String", "SUPPORT_URL", "\"$supportUrl\"")
     }
 
     buildTypes {
@@ -55,6 +58,7 @@ android {
 
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 }
 

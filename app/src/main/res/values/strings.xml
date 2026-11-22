@@ -1,3 +1,95 @@
 <resources>
     <string name="app_name">gplayeraudio</string>
+
+
+    <!-- Вкладки и общие -->
+    <string name="tab_library">Медиатека</string>
+    <string name="tab_settings">Настройки</string>
+    <string name="back">Назад</string>
+    <string name="open">Открыть</string>
+
+    <!-- Разрешения -->
+    <string name="permission_required">Приложению нужен доступ к аудиофайлам</string>
+    <string name="grant_permission">Предоставить разрешение</string>
+
+    <!-- Медиатека -->
+    <string name="change_view">Сменить вид</string>
+    <string name="no_music_found">Музыка на устройстве не найдена</string>
+    <string name="unknown_track">Неизвестный трек</string>
+    <string name="unknown_artist">Неизвестный исполнитель</string>
+    <string name="now_playing">Сейчас играет</string>
+    <string name="playing_format">Играет • %1$s</string>
+    <string name="track_cover">Обложка трека</string>
+
+    <!-- Плеер и Мини-плеер -->
+    <string name="playback_speed">Скорость воспроизведения</string>
+    <string name="speed_normal">1.0x (Обычная)</string>
+    <string name="selected">Выбрано</string>
+    <string name="play_pause">Пауза / Воспроизведение</string>
+    <string name="play">Воспроизведение</string>
+    <string name="previous_track">Предыдущий трек</string>
+    <string name="next_track">Следующий трек</string>
+    <string name="forward">Вперед</string>
+    <string name="repeat">Повтор</string>
+
+    <!-- Настройки: заголовки и пункты -->
+    <string name="settings_section_appearance">Оформление</string>
+    <string name="settings_theme">Тема оформления</string>
+    <string name="settings_library_appearance">Оформление медиатеки</string>
+    <string name="settings_mini_player_appearance">Оформление мини-плеера</string>
+    <string name="settings_player_appearance">Оформление плеера</string>
+
+    <!-- Новый раздел: Язык -->
+    <string name="settings_section_language">Язык</string>
+    <string name="settings_language">Язык</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_english">Английский</string>
+
+    <!-- Темы -->
+    <string name="theme_system">Как в системе</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+
+    <!-- Настройки медиатеки -->
+    <string name="hide_nav_on_scroll">Скрывать навигацию при пролистывании</string>
+    <string name="hide_player_on_scroll">Скрывать плеер при пролистывании</string>
+    <string name="hide_player_subtitle">Если мини-плеер включен</string>
+    <string name="show_track_covers">Показывать обложки треков</string>
+    <string name="show_track_covers_subtitle">Отображать встроенные иконки альбомов</string>
+    <string name="show_nav_labels">Подписи в навигации</string>
+    <string name="nav_size">Размер навигации</string>
+
+    <!-- Настройки мини-плеера -->
+    <string name="mini_progress">Полоса прогресса</string>
+    <string name="mini_progress_subtitle">Тонкая линия прогресса снизу мини-плеера</string>
+    <string name="mini_marquee">Бегущая строка</string>
+    <string name="mini_marquee_subtitle">Плавная прокрутка длинных названий</string>
+    <string name="mini_track_anim">Анимация смены трека</string>
+    <string name="mini_track_anim_subtitle">Плавный переход текста при переключении</string>
+    <string name="mini_skip_buttons">Кнопки переключения</string>
+    <string name="mini_skip_buttons_subtitle">Добавить кнопки «Назад» и «Вперед»</string>
+    <string name="mini_player_size">Размер мини-плеера</string>
+
+    <!-- Настройки плеера -->
+    <string name="player_slider_style_title">Стиль ползунка воспроизведения</string>
+    <string name="slider_wavy_title">Волнистый (Android 13+)</string>
+    <string name="slider_wavy_subtitle">Анимированная волна и вертикальный бегунок</string>
+    <string name="slider_classic_title">Классический</string>
+    <string name="slider_classic_subtitle">Стандартный ползунок с круглым бегунком</string>
+    <string name="slider_minimal_title">Минималистичный</string>
+    <string name="slider_minimal_subtitle">Тонкая полоса с аккуратной точкой</string>
+    <!-- Раздел и экран "О приложении" -->
+    <string name="settings_section_about">О приложении</string>
+    <string name="settings_about">О приложении</string>
+    <string name="about_version">Версия 2.0 (GitHub)</string>
+    <string name="about_description">gplayeraudio — это лёгкий и интуитивно понятный музыкальный плеер, созданный на базе ExoPlayer для комфортного прослушивания ваших любимых треков в любом месте и в любое время. Больше никакого лишнего функционала — только ваша музыка и удобное управление.</string>
+    <string name="about_support_title">Поддержать проект</string>
+    <string name="about_support_subtitle">Предложите вашу идею или просто поддержите в разработке</string>
+    <!-- Тестовые треки для предпросмотра мини-плеера -->
+    <string name="preview_track_1_title">Очень длинное название трека для проверки бегущей строки</string>
+    <string name="preview_track_1_artist">Исполнитель №1</string>
+    <string name="preview_track_2_title">Второй тестовый трек (свайпни или нажми вперед)</string>
+    <string name="preview_track_2_artist">Исполнитель №2</string>
+
 </resources>
+
