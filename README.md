@@ -19,9 +19,6 @@ git clone  https://github.com/proto-gs/gplayeradio
 ```bash
 ./gradlew assembleDebug
 ```
-Или используйте release
-```bash
-./gradlew assembleRelease
-```
+
 
 
